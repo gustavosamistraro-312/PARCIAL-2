@@ -1,5 +1,5 @@
 # Lista de 5 nomes
-nomes = ["Ana", "João", "Maria", "Carlos", "Luciana"]
+nomes = ["Gustavo", "Lucas", "Henrique", "Guilherme", "Cristian"]
 
 # Imprime todos os nomes
 print("Lista de nomes:")
