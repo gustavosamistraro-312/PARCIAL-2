@@ -1,9 +1,7 @@
-# Programa que cria uma lista de 5 nomes e imprime todos
-
-# Lista de nomes
+# Lista de 5 nomes
 nomes = ["Gustavo", "Lucas", "Henrique", "Guilherme", "Cristian"]
 
-# Mostra título
+# Mostra o título
 print("Lista de nomes:")
 
 # Percorre a lista e imprime cada nome
