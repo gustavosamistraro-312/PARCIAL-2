@@ -1,10 +1,10 @@
-# Programa que verifica se um número é par ou ímpar
+# Programa que verifica se um número é par
 
-# Entrada do número
-numero = int(input("Digite um número: "))  # recebe um número inteiro
+# Entrada do número digitado pelo usuário
+numero = int(input("Digite um número: "))
 
-# Verifica se é par
-if numero % 2 == 0:  # se o resto da divisão por 2 for 0
-    print("O número é par")  # mostra que é par
+# Verifica se o número é par
+if numero % 2 == 0:
+    print("O número é par")
 else:
-    print("O número é ímpar")  # mostra que é ímpar
+    print("O número é ímpar")
