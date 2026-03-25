@@ -1,7 +1,14 @@
+# Entrada do capital
 capital = float(input("Digite o capital (C): "))
+
+# Entrada da taxa
 taxa = float(input("Digite a taxa de juros (I): "))
+
+# Entrada do tempo
 tempo = float(input("Digite o tempo (T): "))
 
+# Cálculo dos juros simples
 juros = (capital * taxa * tempo) / 100
 
+# Mostra o resultado
 print("O valor dos juros é:", juros)
