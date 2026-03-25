@@ -1,9 +1,13 @@
-# Lista de 5 nomes
-nomes = ["Gustavo", "Lucas", "Henrique", "Guilherme", "Cristian"]
+# Cria uma lista vazia
+nomes = []
 
-# Mostra o título
+# Pede 5 nomes
+for i in range(5):
+    nome = input("Digite um nome: ")
+    nomes.append(nome)  # adiciona o nome na lista
+
+# Mostra os nomes
 print("Lista de nomes:")
 
-# Percorre a lista e imprime cada nome
 for nome in nomes:
-    print(nome)
+    print(nome)  # imprime cada nome
