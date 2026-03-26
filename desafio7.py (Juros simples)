@@ -1,14 +1,14 @@
-# Entrada do capital
-capital = float(input("Digite o capital (C): "))
+# Recebe o valor do capital inicial
+capital = float(input("Capital: "))
 
-# Entrada da taxa
-taxa = float(input("Digite a taxa de juros (I): "))
+# Recebe a taxa de juros (em porcentagem)
+taxa = float(input("Taxa (%): "))
 
-# Entrada do tempo
-tempo = float(input("Digite o tempo (T): "))
+# Recebe o tempo (período)
+tempo = float(input("Tempo: "))
 
-# Cálculo dos juros simples
+# Aplica a fórmula de juros simples
 juros = (capital * taxa * tempo) / 100
 
-# Mostra o resultado
-print("O valor dos juros é:", juros)
+# Mostra o valor dos juros calculados
+print("Juros:", juros)
