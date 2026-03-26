@@ -1,0 +1,14 @@
+# Recebe o total de segundos
+segundos = int(input("Digite os segundos: "))
+
+# Calcula quantas horas completas existem
+horas = segundos // 3600
+
+# Calcula os minutos restantes após retirar as horas
+minutos = (segundos % 3600) // 60
+
+# Calcula os segundos restantes
+seg_rest = segundos % 60
+
+# Mostra o resultado formatado
+print(horas, "h", minutos, "min", seg_rest, "s")
