@@ -1,13 +1,17 @@
-# Cria uma lista vazia
+# Cria uma lista vazia para armazenar nomes
 nomes = []
 
-# Pede 5 nomes
+# Repete 5 vezes para pedir 5 nomes
 for i in range(5):
+    # Recebe um nome digitado pelo usuário
     nome = input("Digite um nome: ")
-    nomes.append(nome)  # adiciona o nome na lista
+    
+    # Adiciona o nome dentro da lista
+    nomes.append(nome)
 
-# Mostra os nomes
-print("Lista de nomes:")
+# Mostra um título
+print("Nomes digitados:")
 
+# Percorre a lista e imprime cada nome
 for nome in nomes:
-    print(nome)  # imprime cada nome
+    print(nome)
